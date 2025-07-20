@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['PolisiTidurPolos', 'PolisiTidurWarna']
+
+roboflow:
+  workspace: sca5a-kelompok-5-zus60
+  project: deteksi-polisi-tidur
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sca5a-kelompok-5-zus60/deteksi-polisi-tidur/dataset/1
